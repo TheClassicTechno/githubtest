@@ -1,0 +1,229 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Georgia', serif; 
+}
+
+.head {
+    background-color: black;
+    padding-top: 100px;
+    color: white;
+    padding: 16px 24px;
+}
+
+.head ul li {
+    list-style: none;
+    text-align: center;
+    padding: 0px 20px;
+    display: inline-block;
+    position: relative;
+    width: auto;
+    left: 40%;
+}
+
+.head ul li a {
+    text-align: left;
+    font: white;
+    font-size: 30px;
+    padding: 10px 10px;
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.head ul li a:hover {
+    color: indianred;
+}
+        
+.head button {
+    text-decoration: none; 
+    font-weight: 600;
+    color: white;
+    padding: 5px 10px;
+    background: indianred;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.head img {
+    width: 60px;
+    margin-bottom: 10px;
+    vertical-align: middle;
+    align-items: center;
+}
+
+body {
+    background-color: #FDF5E6;
+}
+
+.nav-btn {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: 1000;
+    margin-top: 20px;
+    color: white;
+    position: center;
+    padding: 12px 34px;
+    font-size: 23px;
+    background: transparent;
+    border-radius: 12px;
+}
+
+.nav-btn:hover {
+    color: indianred;
+}
+
+.description {
+    padding: 0;
+    margin: 0; 
+}
+
+.main {
+    width: 90%;
+    text-align: center;
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+}
+
+.main h1, h2, p {
+    text-align: center;
+    color: indianred;
+}
+
+.main button {
+    margin-top: 15px;
+    color: white;
+    padding: 12px 34px;
+    font-weight: 600;
+    font-size: 30px;
+    background-color: indianred;
+}
+
+.description {
+    margin-top: 30px;
+    margin-left: 10px;
+    text-align: left;
+    margin: 20px;
+    padding: 20px;
+}
+
+table, th, td {
+    border:2px solid indianred;
+    color: black;
+    text-align: center;
+    padding: 2px;
+}
+
+.description h1 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.description p {
+    color: black;
+    font-size: 20px;
+}
+
+.paragraph h2 {
+    color: indianred;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.paragraph p {
+    font-size: 20x;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.description button {
+    margin-top: 15px;
+    text-align: center;
+    color: white;
+    display: block;
+    margin:0 auto;
+    padding: 12px 34px;
+    font-weight: 600;
+    font-size: 20px;
+    background-color: indianred;
+}
+
+.head a:visited {
+    color: white;
+}
+
+.head a:hover {
+    color: indianred;
+}
+
+.footer a:link {
+    color: white;
+}
+
+.footer a:visited {
+    color: white;
+}
+
+a:link {
+    text-decoration: none;
+    color: darkred;
+}
+
+a:visited {
+    text-decoration: none;
+    color: rebeccapurple;
+}
+
+a:hover {
+    text-decoration: none;
+    color: indianred;
+}
+
+a:active {
+    text-decoration: none;
+    color: dimgrey;
+}
+
+.footer {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.footer p {
+    font-size: 20px;
+    padding-top: 20px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+    color: white;
+    text-align: center;
+}
+
+.fa {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    font-size: 25px;
+    width: 25px;
+    position: center;
+    background: indianred;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 20px;
+}
+
+.fa:hover {
+  opacity: 0.3;
+}
